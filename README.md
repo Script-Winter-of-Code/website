@@ -23,7 +23,7 @@ Reporting Bugs This section guides you through submitting a bug report for the w
 2. Browser
 3. Local installations
 Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem -
-Adding a visual of hte bugs helps pinpoint he issues being faced.
+Adding a visual of the bugs helps pinpoint the issues being faced.
 
 ## Template :
 
