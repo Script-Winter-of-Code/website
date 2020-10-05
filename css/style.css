@@ -16,7 +16,7 @@ body {
   width: 100%;
   background: #222;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-  padding: 0 8% 8%;
+  padding: 0 8% 11%;
 }
 
 .main-nav {
@@ -99,29 +99,16 @@ body {
   font-size: 5rem;
 }
 
-/* body */
-
-.body-content {
-  font-family: "Poppins", sans-serif;
-  color: #222;
-  width: 100%;
-  padding: 0 7rem;
-  margin-bottom: 5%;
-}
-
-.body-content h1 {
-  font-size: 5rem;
-}
 /*Timeline*/
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .timeline ul {
-  background:#ffffff;
+  background: #ffffff;
   padding: 50px 0;
 }
 
@@ -151,8 +138,8 @@ body {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #000000;
-  color:white;
+  background: #222;
+  color: white;
 }
 
 .timeline ul li div::before {
@@ -190,6 +177,7 @@ time {
   font-weight: bold;
   margin-bottom: 8px;
 }
+
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
@@ -201,7 +189,6 @@ time {
 
 @media screen and (max-width: 600px) {
   .timeline ul li {
-
     margin-left: 20px;
   }
   .timeline ul li div {
@@ -216,6 +203,7 @@ time {
     border-color: transparent #000000 transparent transparent;
   }
 }
+
 /* footer */
 
 .footer-content {
@@ -235,15 +223,37 @@ time {
 
 /* Body */
 
-.heading-primary {
-  margin-bottom: 5%;
+.body-content {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.about-swoc {
+  display: flex;
+  padding: 3rem 7rem 5rem;
+}
+
+.about-vector {
+  height: 100%;
+  margin-top: auto;
+}
+
+.about-vector img {
+  width: 420px;
+}
+
+.about-content h3 {
   font-weight: lighter;
   font-size: 3rem;
 }
 
-.para-primary {
-  font-size: 1.2rem;
-  line-height: 1.5;
+.about-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.8;
+  padding: 0 8rem 0 0;
+  letter-spacing: 0.2px;
 }
 
 span {
@@ -251,7 +261,16 @@ span {
 }
 
 .to-apply {
-  width: 100%;
+  padding: 2rem 9rem 3.5rem;
+  background: #222;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+}
+
+.to-apply h3 {
+  color: #fff;
+  margin-bottom: 5%;
+  font-weight: lighter;
+  font-size: 3rem;
 }
 
 .to-apply-card {
@@ -260,7 +279,10 @@ span {
   transition: all 0.3s;
   perspective: 1px;
   border-radius: 100px;
-  box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7);
+  /* box-shadow: 0 8px 6px -6px black; */
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .diff-col {
@@ -274,6 +296,10 @@ span {
 .card-title {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
 }
 
 .btn-container {
