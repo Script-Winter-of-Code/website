@@ -9,9 +9,14 @@ About SWOC (Swoc short info)
 
 Apply for 
 
-Projects                 Participants               Mentors   
+                Participants              
 
-Content                      Content                  Content
+                  Content                  Content
+
+|Projects | Participants   	|  Mentors    	|
+
+|  	|  	|  	|
+|  	|  	|  	|
 
 
 
