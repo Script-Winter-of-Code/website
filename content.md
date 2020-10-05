@@ -7,15 +7,9 @@ About us (script ka info )
 About SWOC (Swoc short info)
 
 
-Apply for 
-
-                Participants              
-
-                  Content                  Content
-
-|Projects | Participants   	|  Mentors    	|
-
-|  	|  	|  	|
+| project 	| participants  	|  mentors	|
+|-	|-	|-	|
+|  content	|  content	|  content	|
 |  	|  	|  	|
 
 
