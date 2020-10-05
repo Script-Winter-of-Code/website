@@ -1,7 +1,9 @@
 Script Winter of Code
     Script Winter of Code
 
-About us (script ka info )
+About us 
+
+We are an organization that aspires to establish a platform for every student and professional who desires to learn something new and innovative. We are motivated to a single vision to introduce more and more students and professionals to our platform so that they can learn something new and innovative. Our mission is to promote education interactively so that students and professionals should learn interactively and interestingly.
 
 
 About SWOC (Swoc short info)
