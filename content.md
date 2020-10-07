@@ -8,6 +8,9 @@ We are an organization that aspires to establish a platform for every student an
 
 About SWOC 
 
+Script Winter of Code is an open source program by Script Foundation for students to get them into the world of open source development. We would be hosting and maintaining projects,and students would be working on them under the mentorship of the project mentors.
+
+The program aims to uplift the student community by making them understand the process of software development and importance of open source contributions.
 
 | project 	| participants  	|  mentors	|
 |-	|-	|-	|
