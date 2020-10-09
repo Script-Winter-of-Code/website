@@ -22,12 +22,12 @@ body {
 }
 
 .header {
-    font-family: "Poppins", sans-serif;
-    width: 100%;
-    background: #222;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-    padding: 0 0 11%;
-    min-height: 600px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  background: #222;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+  padding: 0 0 11%;
+  min-height: 620px;
 }
 
 .main-nav {
@@ -153,9 +153,21 @@ body {
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timeline-head {
+  width: 100%;
+  text-align: center;
+}
+
+.timeline-head h3 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  color: #222;
+  margin: 2rem 0 0rem;
 }
 
 .timeline ul {
@@ -284,8 +296,8 @@ time {
 }
 
 .about-swoc {
-    display: flex;
-    padding: 2rem 10rem 4rem;
+  display: flex;
+  padding: 0rem 10rem 4rem;
 }
 
 .about-vector {
@@ -294,7 +306,7 @@ time {
 }
 
 .about-vector img {
-    width: 330px;
+  width: 355px;
 }
 
 .about-content {
@@ -302,16 +314,17 @@ time {
 }
 
 .about-content h3 {
-    font-weight: lighter;
-    font-size: 3rem;
+  font-weight: lighter;
+  font-size: 3.2rem;
 }
 
 .about-content p {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 300;
-    line-height: 2;
-    color: #444;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2;
+  padding: 0 8rem 0 0;
+  color: #444;
 }
 
 span {
@@ -390,49 +403,49 @@ span {
 }
 
 .answers {
-    background: #dad9d9;
-    padding: 0px 15px;
-    margin: 5px 0;
-    max-height: 0;
-    overflow: hidden;
-    z-index: -1;
-    position: relative;
-    opacity: 0;
-    border-radius: 15px;
-    -webkit-transition: 0.7s ease;
-    -moz-transition: 0.7s ease;
-    -o-transition: 0.7s ease;
-    transition: 0.7s ease;
+  background: #dad9d9;
+  padding: 0px 15px;
+  margin: 5px 0;
+  max-height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  border-radius: 15px;
+  -webkit-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 
 .questions:checked ~ .answers {
-    max-height: 500px;
-    opacity: 1;
-    padding: 15px;
+  max-height: 500px;
+  opacity: 1;
+  padding: 15px;
 }
 
 .plus {
-    position: absolute;
-    margin-left: 10px;
-    z-index: 5;
-    font-size: 2em;
-    line-height: 100%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    -webkit-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    -o-transition: 0.3s ease;
-    transition: 0.3s ease;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .questions:checked ~ .plus {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .questions {
@@ -548,7 +561,7 @@ h5 {
 }
 
 @media only screen and (max-width: 768px) {
-    .body-content {
-        padding: 0 25px;
-    }
+  .body-content {
+    padding: 0 25px;
+  }
 }
