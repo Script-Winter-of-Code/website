@@ -1,3 +1,5 @@
+## draft 1
+
 Script Winter of Code
     Script Winter of Code
 
@@ -121,6 +123,14 @@ Program Overview
 Prizes and Eligibility 
 
 Top Contributors and participants will get  Swags and exciting prizes from us.
+
+## Overview
+every student and professional who desires to learn something We are an organization that aspires to establish a platform for every student and professional who desires to learn something new and innovative. We are motivated to a single vision to introduce more and more students and professionals to our platform so that they can learn something new and innovative. Our mission is to promote education interactively so that students and professionals should learn interactively and interestingly.
+
+SWOC is a open source program by the script foundation to encourage and increase the awareness of open source among students.
+ 
+Students would be allocated a project to work on and would be allocated projects according to their skillset,and would be mentored by the project mentors for the same
+
 
 
 
