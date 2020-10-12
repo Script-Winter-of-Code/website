@@ -15,6 +15,12 @@
     />
     <link
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
     />
 
@@ -30,19 +36,10 @@
   <body>
     <!-- Navbar -->
     <div class="main-nav">
-      <div id="addNavLogo"></div>
       <!-- <div class="nav-logo">
-                <a href="./index.html" class="scrollto"><img src="./img/logo-2.png"></a>
-            </div> -->
-      <nav class="nav-comps">
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="./project.html">Projects</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="./team.html">Our Team</a></li>
-          <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
+          <a href="./index.html" class="scrollto"><img src="./img/logo-2.png"></a>
+      </div> -->
+      <nav id="nav__nav"></nav>
     </div>
 
     <!-- Header -->
@@ -59,7 +56,7 @@
     </header>
     <!-- body -->
     <section class="body-content about-swoc" id="about">
-      <div class="about-content col-lg-8 col-md-6">
+      <div class="about-content col-lg-8">
         <h3>About <span>SWOC</span></h3>
         <p>
           Script Winter of Code is an open source program by Script Foundation
@@ -72,7 +69,7 @@
           source contributions.
         </p>
       </div>
-      <div class="about-vector col-lg-4 col-md-6">
+      <div class="about-vector">
         <!-- <img src="./img/about.png" /> -->
         <img src="./img/github.gif" />
       </div>
@@ -228,13 +225,13 @@
             <img class="sponsor-img" src="./img/logos/hackclub.png" alt="" />
           </div>
         </div>
-        <div class="btn-container">
+        <div class="btn-container p-4">
           <a href="#" class="btn btn-success btn-lg">Sponsor Us</a>
         </div>
       </div>
     </section>
 
-    <section class="body-content faqs">
+    <section class="body-content faqs about-content">
       <h3 class="heading-primary">FAQs</h3>
 
       <div class="content">
@@ -313,8 +310,8 @@
             Can I participate in SWOC both as a participant and mentor?
           </label>
           <div class="answers">
-            You can participate either as a mentor or as a participant but not as
-            both.
+            You can participate either as a mentor or as a participant but not
+            as both.
           </div>
         </div>
 
@@ -394,7 +391,7 @@
         }
       });
     </script>
-    <script type="text/javascript" src="./files/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="./js/particles.min.js"></script>
