@@ -18,16 +18,17 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-                >
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Sponsors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
             </li>
             </ul>
             <!-- Links -->
@@ -44,7 +45,7 @@ function Navbar() {
             <li><a href="./project.html">Projects</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="./team.html">Our Team</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="#">Contact Us</a></li>
             </ul>
         </div>`);
     }
