@@ -19,16 +19,16 @@ function Navbar() {
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sponsors</a>
+                <a class="nav-link" href="#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
             </li>
             </ul>
             <!-- Links -->
@@ -44,8 +44,8 @@ function Navbar() {
             <li><a href="#about">About Us</a></li>
             <li><a href="./project.html">Projects</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="./team.html">Our Team</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>`);
     }
