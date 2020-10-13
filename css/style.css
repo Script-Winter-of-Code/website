@@ -176,7 +176,9 @@ nav {
 
 /*Timeline*/
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -438,7 +440,7 @@ span {
   transition: 0.7s ease;
 }
 
-.questions:checked~.answers {
+.questions:checked ~ .answers {
   max-height: 500px;
   opacity: 1;
   padding: 15px;
@@ -461,7 +463,7 @@ span {
   transition: 0.3s ease;
 }
 
-.questions:checked~.plus {
+.questions:checked ~ .plus {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -535,11 +537,15 @@ h5 {
   color: #000000;
   font-size: 25px;
   line-height: 50px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .social-menu ul li .fa:hover {
   color: #ffffff;
+}
+
+.givemycerti {
+  width: 40%;
 }
 
 .social-menu ul li a {
@@ -576,7 +582,7 @@ h5 {
 }
 
 .social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 @media only screen and (max-width: 768px) {
