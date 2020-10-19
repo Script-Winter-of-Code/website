@@ -229,6 +229,13 @@ nav {
   padding: 15px;
   background: #222;
   color: white;
+ border-radius: 18px;
+ transition: ease-in 1s;
+}
+.timeline ul li div:hover{
+    color:#736AFF;
+    width:430px;
+    height: 120px;
 }
 
 .timeline ul li div::before {
