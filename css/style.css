@@ -230,12 +230,12 @@ nav {
   background: #222;
   color: white;
  border-radius: 18px;
- transition: ease-in 1s;
-}
+ transition: all 500ms ease-in-out;
+ }
 .timeline ul li div:hover{
-    color:#736AFF;
-    width:430px;
-    height: 120px;
+    color:#007bff;
+  
+    height: 110px;
 }
 
 .timeline ul li div::before {
@@ -315,6 +315,11 @@ time {
 
 .footer-content h1 {
   font-size: 4.5rem;
+}
+
+.fa-heart {
+  color: red;
+  font-size: 20px;
 }
 
 /* Body */
