@@ -597,6 +597,95 @@ h5 {
   background-color: #0077b5;
 }
 
+.card-title {
+  color: #262626;
+  font-size: 1.4rem;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+}
+
+p .small {
+  font-size: 14px;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #00838d;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: auto;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #add8e6;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(5);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s ease-out;
+}
+
+.card1:hover:before {
+  transform: scale(50);
+}
+
+.card1:hover p {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.card1:hover .card-title {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.overview-section {
+  background-color: #add8e6;
+}
+
+.sponsors-section {
+  background-color: #add8e6;
+}
+
+
 @media only screen and (max-width: 768px) {
   .to-apply {
     padding: 2rem 2rem 3.5rem;
