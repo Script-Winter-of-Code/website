@@ -407,11 +407,16 @@ span {
 }
 
 .sponsor-img {
+  position: relative;
   width: 60%;
+  /*  margin: auto;*/
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .img-div {
-  padding: 1%;
+  text-align: center;
+  padding: 2%;
 }
 
 .content {
@@ -432,7 +437,7 @@ span {
 }
 
 .answers {
-  background: #dad9d9;
+  background: #add8e6;
   padding: 0px 15px;
   margin: 5px 0;
   max-height: 0;
@@ -701,6 +706,9 @@ h5 {
   }
   .plus {
     font-size: 1.5em;
+  }
+  .img-div {
+    margin-bottom: 10%;
   }
 }
 
