@@ -13,6 +13,17 @@ const mapProfileLinksToFavClasses = profileName => {
 
 const teamData_board = [
   {
+    name: 'Jai Sadana',
+    position: 'Founder & CEO',
+    image: 'jai.jpeg',
+    profiles: [
+      {
+        linkedIn: 'https://www.linkedin.com/in/jaisadana',
+      }
+    ]
+  },
+
+  {
     name: 'Abhishek Mankuskar',
     position: 'Program Leader',
     image: 'IMGBG.jpg',

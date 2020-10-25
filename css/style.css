@@ -229,13 +229,13 @@ nav {
   padding: 15px;
   background: #222;
   color: white;
- border-radius: 18px;
- transition: all 500ms ease-in-out;
- }
+ /* border-radius: 18px; */
+ transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
 .timeline ul li div:hover{
-    color:#007bff;
-  
-    height: 110px;
+    /* color:#007bff; */
+    transform: scale(1.02);
 }
 
 .timeline ul li div::before {
@@ -254,7 +254,7 @@ nav {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #000000 transparent transparent;
+  border-color: transparent #222 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
