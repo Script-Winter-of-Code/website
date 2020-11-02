@@ -1,3 +1,8 @@
+## Script Winter of Code
+
+Script Winter of Code is an Open Source program for everyone to get started with open source.
+
+<b> Please do not send PRs to this repo. This site is build by the Script Winter of Code team</b>
 ## Website
 
 Bug report
