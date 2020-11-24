@@ -14,7 +14,49 @@ body {
   line-height: 1.5715;
   overflow-x: hidden;
 }
+/*notification*/
+.alert {
+  opacity: 1;
+  visibility: visible;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  max-width: 20em;
+  background-color: white;
+  border-radius: 0.2em;
+  margin: 1em;
+  padding: 0.5em;
+  box-shadow: 0 0.1em 0.4em -0.1em #616161;
+  direction: rtl;
+  z-index: 100;
+  transition: visibility 0.5s,transform 0.5s ease-in-out,opacity 0.5s ease-in;
+}
 
+.close {
+  font-size: 1.2em;
+  font-style: unset;
+  padding: 0.3em 0.5em;
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+
+
+.hide {
+  transform: translateY(3em);
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .alert {
+    font-size: small;
+    margin: 0;
+    max-width: unset;
+  }
+}
 /* header */
 
 #snow {
