@@ -74,6 +74,14 @@
       </div>
     </header>
     <!-- body -->
+    
+       <div class="alert" style="position:fixed; bottom-margin: 10px; right: 0; width:250px; text-align: left;">
+  <i class="close">&#10006;</i>
+  
+    <div class="content" style="direction: ltr;">👋 hey there! <br>Join <a href="#Ideathon">Ideathon</a></div>
+</div>
+ 
+  
     <a name="about"></a>
     <section class="body-content about-swoc" id="about">
       <div class="about-content col-lg-8">
@@ -577,7 +585,7 @@
         </div>
       </div>
     </section>
-
+<section id="Ideathon">
     <section class="body-content about-swoc overview-section" id="about" >
       <div class="about-content" style="border: dashed; padding: 3%;">
         <h3 style="text-align: center; color: red;">Hack The Bond - 48 Hours Ideathon</h3>
@@ -612,7 +620,7 @@
         </div>
       </div>
     </section>
-
+</section>
     <!-- footer -->
     <footer>
       <section id="contact">
@@ -701,6 +709,10 @@
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
+         $(".alert").click(function(){
+  $(this).toggleClass('hide');
+});
+
       $(window).scroll(function () {
         $(".main-nav").toggleClass("nav-scrolled", $(this).scrollTop() > 50);
         $(".nav-comps").toggleClass("comp-scrolled", $(this).scrollTop() > 400);
