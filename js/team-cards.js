@@ -11,7 +11,7 @@ const mapProfileLinksToFavClasses = profileName => {
   return favClassesDataSet[profileName];
 };
 
-const teamData_board = [
+const teamData = [
   {
     name: 'Jai Sadana',
     position: 'Founder & CEO',
@@ -47,7 +47,7 @@ const teamData_board = [
         twitter: 'https://twitter.com/rachittshah'
       }
     ]
-  },  
+  },
 
   {
     name: 'Priyal Bhatewara',
@@ -61,7 +61,7 @@ const teamData_board = [
       }
     ]
   },
-  
+
   {
     name: 'Nistha Gupta',
     position: 'Program manager',
@@ -84,6 +84,18 @@ const teamData_board = [
         linkedIn: 'https://www.linkedin.com/in/xdshivani',
         github: 'https://github.com/xdshivani',
         twitter: 'https://twitter.com/xdshivani'
+      }
+    ]
+  },
+
+  {
+    name: 'Utkarsh Srivastava',
+    position: 'Graphic Designer',
+    image: 'Utkarsh_Srivastava.jpeg',
+    profiles: [
+      {
+        linkedIn: 'https://www.linkedin.com/in/utkarsh-srivastava-544a81181/',
+        twitter: 'https://twitter.com/UTKARSH88063212',
       }
     ]
   },
@@ -123,7 +135,7 @@ const teamData_board = [
       }
     ]
   },
-  
+
   {
     name: 'Shubha Sharma',
     position: 'Web Developer',
@@ -135,7 +147,7 @@ const teamData_board = [
         twitter: 'https://twitter.com/shubha0208'
       }
     ]
-  },  
+  },
 
   {
     name: 'Taranpreet Kalra',
@@ -148,7 +160,7 @@ const teamData_board = [
       }
     ]
   },
-  
+
   {
     name: 'Vanshika goel',
     position: 'Outreach',
@@ -181,7 +193,7 @@ const generateProfileLinks = profileObject => {
 // Generates HTML for each team members from array
 const generateCards = cardDetail => {
   const { name, position, image, profiles } = cardDetail;
-  
+
   const getProfilesLinksDynamic = generateProfileLinks(profiles[0]);
 
   const teamCard = `
@@ -207,4 +219,4 @@ const injectCardsToPage = (team) => {
 
 
 //Team
-board.innerHTML = injectCardsToPage(teamData_board);
+Team.innerHTML = injectCardsToPage(teamData);

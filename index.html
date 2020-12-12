@@ -48,7 +48,8 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Font AweSome -->
   </head>
 
@@ -58,7 +59,7 @@
       <!-- <div class="nav-logo">
           <a href="./index.html" class="scrollto"><img src="./img/logo-2.png"></a>
       </div> -->
-      <nav id="nav__nav"></nav>
+      <nav id="nav__nav" style="padding-right: 1.8rem"></nav>
     </div>
 
     <!-- Header -->
@@ -100,7 +101,7 @@
           world of open-source.
         </p>
       </div>
-      <div class="about-vector">
+      <div class="about-vector" data-aos="zoom-out">
         <!-- <img src="./img/about.png" /> -->
         <img src="./img/github.gif" />
       </div>
@@ -157,7 +158,11 @@
             </div>
         </div> -->
       <div class="row">
-        <div class="col-md-4 diff-col">
+        <div
+          class="col-md-4 diff-col"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div class="card1 h-100 to-apply-card">
             <h5 class="card-title">Project</h5>
             <p class="card-text">
@@ -177,7 +182,11 @@
           </div>
         </div>
 
-        <div class="col-md-4 diff-col">
+        <div
+          class="col-md-4 diff-col"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div class="card1 h-100 to-apply-card">
             <h5 class="card-title">Participant</h5>
             <p class="card-text">
@@ -186,13 +195,21 @@
               exciting!
             </p>
             <div class="btn-container">
-              <a href="https://skillenza.com/challenge/swoc" target="_blank"
-              class="btn btn-success">Apply</a>
+              <a
+                href="https://skillenza.com/challenge/swoc"
+                target="_blank"
+                class="btn btn-success"
+                >Apply</a
+              >
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 diff-col">
+        <div
+          class="col-md-4 diff-col"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div class="card1 h-100 to-apply-card">
             <h5 class="card-title">Mentor</h5>
             <p class="card-text">
@@ -202,8 +219,12 @@
               hackathon journey.
             </p>
             <div class="btn-container">
-              <a href="https://jaisadana673401.typeform.com/to/p8Q0UJ51" target="_blank"
-              class="btn btn-success">Apply</a>
+              <a
+                href="https://jaisadana673401.typeform.com/to/p8Q0UJ51"
+                target="_blank"
+                class="btn btn-success"
+                >Apply</a
+              >
             </div>
           </div>
         </div>
@@ -410,10 +431,7 @@
 
             <div class="col-md-4 img-div">
               <a href="https://www.axure.com/"
-                ><img
-                  class="sponsor-img"
-                  src="./img/logos/axure.png"
-                  alt=""
+                ><img class="sponsor-img" src="./img/logos/axure.png" alt=""
               /></a>
             </div>
 
@@ -757,6 +775,11 @@
     </footer>
 
     <!-- scripts -->
+    <script>
+      AOS.init({
+        duration: 500,
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
          $(".alert").click(function(){

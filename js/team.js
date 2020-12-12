@@ -70,17 +70,11 @@ Vue.component('Card', {
         this.mouseX = 0;
         this.mouseY = 0;
       }, 1000);
-    } } });
+    }
+  }
+});
 
-const board = new Vue({
-  el: '#board'});
+const Team = new Vue({
+  el: '#Team'});
 
-const technical = new Vue({
-  el: '#technical'});
-
-const creatives = new Vue({
-  el: '#creatives'});
-
-const management = new Vue({
-  el: '#management'});
     

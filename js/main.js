@@ -22,7 +22,7 @@ function Navbar() {
                 <a class="nav-link" href="./index.html#about">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="./project.html">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./index.html#sponsors">Sponsors</a>
