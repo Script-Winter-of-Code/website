@@ -53,6 +53,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- JQuery -->
     <!--JQuery minified-->
     <script
@@ -60,6 +62,7 @@
       integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -80,6 +83,9 @@
     ></script>
     <link rel="stylesheet" type="text/css" href="css/team.css" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script>
+      AOS.init();
+    </script>
   </head>
   <body>
     <!-- Navbar -->
@@ -87,7 +93,7 @@
       <!-- <div class="nav-logo">
           <a href="./index.html" class="scrollto"><img src="./img/logo-2.png"></a>
       </div> -->
-      <nav id="nav__nav"></nav>
+      <nav id="nav__nav" style="padding-right: 1.8rem"></nav>
     </div>
 
     <section id="team">
@@ -99,14 +105,15 @@
           <div class="team-description">
             <hr class="mw-100 line" />
             <h4 class="text-center">
-              Meet the brains behind the ideation,developemnt and execution of Script Winter of Code.
+              Meet the brains behind the ideation,developemnt and execution of
+              Script Winter of Code.
             </h4>
           </div>
         </div>
       </div>
     </section>
     <br />
-    <div id="board" class="container-cards bootstrap-off">
+    <div id="Team" class="container-cards bootstrap-off">
       <!-- Injected Cards Dynamically -->
     </div>
     <!-- footer -->
