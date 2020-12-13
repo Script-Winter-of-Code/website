@@ -231,19 +231,19 @@ const projectsData = [
   //   TechStack: ["Flutter", "Firebase", "SQlite"]
   // },
 
-  // {
-  //   Name: 'QP-Generator',
-  //   Repo: 'https://github.com/Team-Tomato/QP-Generator',
-  //   Owner: 'Akbar Habeeb B',
-  //   profiles: [
-  //     {
-  //       github: 'https://github.com/AkbarHabeeb',
-  //       linkedin: 'https://www.linkedin.com/in/akbarhabeebb/',
-  //     }
-  //   ],
-  //   Description: `Question paper generator helper, wiki: https://github.com/Team-Tomato/QP-Generator/wiki`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
-  // },
+  {
+    Name: 'QP-Generator',
+    Repo: 'https://github.com/Team-Tomato/QP-Generator',
+    Owner: 'Akbar Habeeb B',
+    profiles: [
+      {
+        github: 'https://github.com/AkbarHabeeb',
+        linkedin: 'https://www.linkedin.com/in/akbarhabeebb/',
+      }
+    ],
+    Description: `Question paper generator helper, wiki: https://github.com/Team-Tomato/QP-Generator/wiki`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 
   {
     Name: 'PyDataStructs',
@@ -301,47 +301,47 @@ const projectsData = [
     TechStack: ["Flutter", "Firebase", "SQlite"]
   },
 
-  // {
-  //   Name: 'Dolos',
-  //   Repo: 'https://github.com/ACM-VIT/dolos',
-  //   Owner: 'Yash Kumar Verma',
-  //   profiles: [
-  //     {
-  //       github: 'https://github.com/yashkumarverma/',
-  //       linkedin: 'https://www.linkedin.com/in/yash-kumar-verma/',
-  //     }
-  //   ],
-  //   Description: `Ever wanted to get random data for that app you were building but didn't want to bloat your requests with unwanted data? We're here to help. Dolos is a server written in javascript which generates random data in the exact structure as is required by the user, at a blazing speed by serving only what's requested. Everything without using complex technologies like graphql. Perfect for beginners.`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
-  // },
+  {
+    Name: 'Dolos',
+    Repo: 'https://github.com/ACM-VIT/dolos',
+    Owner: 'Yash Kumar Verma',
+    profiles: [
+      {
+        github: 'https://github.com/yashkumarverma/',
+        linkedin: 'https://www.linkedin.com/in/yash-kumar-verma/',
+      }
+    ],
+    Description: `Ever wanted to get random data for that app you were building but didn't want to bloat your requests with unwanted data? We're here to help. Dolos is a server written in javascript which generates random data in the exact structure as is required by the user, at a blazing speed by serving only what's requested. Everything without using complex technologies like graphql. Perfect for beginners.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 
-  // {
-  //   Name: 'Algorithmic Treasure',
-  //   Repo: 'https://github.com/Abhijit2505/Algorithmic-Treasure-Original',
-  //   Owner: 'Abhijit Tripathy',
-  //   profiles: [
-  //     {
-  //       github: 'https://github.com/Abhijit2505',
-  //       linkedin: 'https://www.linkedin.com/in/abhijit-tripathy-415912187',
-  //     }
-  //   ],
-  //   Description: `Many a times when interview approaches, the interview preparing students start searching for different Data Structures and algorithm problems in the internet. This project is a website that has many previously asked interview questions and their solutions.`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
-  // },
+  {
+    Name: 'Algorithmic Treasure',
+    Repo: 'https://github.com/Abhijit2505/Algorithmic-Treasure-Original',
+    Owner: 'Abhijit Tripathy',
+    profiles: [
+      {
+        github: 'https://github.com/Abhijit2505',
+        linkedin: 'https://www.linkedin.com/in/abhijit-tripathy-415912187',
+      }
+    ],
+    Description: `Many a times when interview approaches, the interview preparing students start searching for different Data Structures and algorithm problems in the internet. This project is a website that has many previously asked interview questions and their solutions.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 
-  // {
-  //   Name: 'AapKaVaidya',
-  //   Repo: 'https://github.com/Harshit564/AapKaVaidya',
-  //   Owner: 'Harshit Singh',
-  //   profiles: [
-  //     {
-  //       github: 'https://github.com/Harshit564',
-  //       linkedin: 'https://www.linkedin.com/in/harshit-singh-lko/',
-  //     }
-  //   ],
-  //   Description: `A flutter based application for easy interaction between patients and doctors. During a Pandemic many of the patients are looking to get regular health check-ups but moving outside in such conditions seems risky.`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
-  // },
+  {
+    Name: 'AapKaVaidya',
+    Repo: 'https://github.com/Harshit564/AapKaVaidya',
+    Owner: 'Harshit Singh',
+    profiles: [
+      {
+        github: 'https://github.com/Harshit564',
+        linkedin: 'https://www.linkedin.com/in/harshit-singh-lko/',
+      }
+    ],
+    Description: `A flutter based application for easy interaction between patients and doctors. During a Pandemic many of the patients are looking to get regular health check-ups but moving outside in such conditions seems risky.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 
   // {
   //   Name: 'Blogger',
@@ -361,6 +361,134 @@ const projectsData = [
   //   https://github.com/harsh-9in/Blogger`,
   //   TechStack: ["Flutter", "Firebase", "SQlite"]
   // },
+
+  {
+    Name: 'Canvasboard',
+    Repo: 'https://github.com/Canvasbird/canvasboard',
+    Owner: 'Kajol Kumari',
+    profiles: [
+      {
+        github: 'https://github.com/Kajol-Kumari',
+        linkedin: 'https://www.linkedin.com/in/kajol-kumari-73245b166/',
+      }
+    ],
+    Description: `It's a way to ease the online teaching process and make it more interactive and prodctive. For more details, do checkout https://github.com/Canvasbird/canvasboard`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Amazing-Python-Scripts',
+    Repo: 'https://github.com/avinashkranjan/Amazing-Python-Scripts',
+    Owner: 'Avinash Kumar Ranjan',
+    profiles: [
+      {
+        github: 'https://github.com/avinashkranjan',
+        linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
+      }
+    ],
+    Description: `A curated collection of Amazing Python scripts from Basics to Advance with automation task scripts. This is your Personal space to find or add any new script that can make Life Easier as a Developer, and to find a utility of coding to burst out of boredom.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Scrum-Management',
+    Repo: 'https://github.com/Harshita248/Scrum-Management',
+    Owner: 'Harshita Raj',
+    profiles: [
+      {
+        github: 'https://github.com/Harshita248',
+        linkedin: 'https://www.linkedin.com/in/harshita-raj',
+      }
+    ],
+    Description: `The idea of the project is to customize all the ongoing projects under one roof. The website includes certain columns which is like working, in progress, done ,etc and once the student enters his/her details into the Website with the currently working project his details will be stored on the database and will show on the first column. After that when the Project comes in progress the cards of the column will shift to another column. We also have an admin login and signup where an admin can be assigned as a mentor to the particular student which he accepts by clicking the accept button shown in the popup window. This way it will work for different organisations . I thought to make it real for my coding club but now it's for all organization . This project is in progress as of now and I would like to include this in this open source program.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Snippet Share',
+    Repo: 'https://github.com/PragatiVerma18/Snippet-Share',
+    Owner: 'Pragati Verma',
+    profiles: [
+      {
+        github: 'https://github.com/PragatiVerma18',
+        linkedin: 'https://www.linkedin.com/in/pragativerma18/',
+      }
+    ],
+    Description: `This is a code snippet sharing app that lets you share syntax-highlighted code snippets with easy copy-paste options and a secure secret code and a unique URL.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Avinash Kumar Ranjan',
+    Repo: 'https://github.com/avinashkranjan/Friday',
+    Owner: 'Friday',
+    profiles: [
+      {
+        github: 'https://github.com/avinashkranjan',
+        linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
+      }
+    ],
+    Description: `Friday - Your Personal Class Manager Assistant, It'll never let you miss another assignment deadline or upcoming test.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'CodeTrophs',
+    Repo: 'https://github.com/CodeTrophs/Frontend',
+    Owner: 'Arya Soni',
+    profiles: [
+      {
+        github: 'https://github.com/aryasoni98',
+        linkedin: 'https://www.linkedin.com/in/aryasoni/',
+      }
+    ],
+    Description: `Become a part of an innovative and highly sought after platform. Does the idea of open source excite you but not sure where to begin or which project to choose? Often feel confused and uncomfortable while using GitHub, and can’t think of any available alternative? Well, you have arrived at the correct place ""CodeTrophs"" is an open source platform targeted solely for beginners to help them contribute to real life projects, from developing new ideas and approaches, to exploring the world of open sourcing.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'sim-C',
+    Repo: 'https://github.com/cimplec/sim-c',
+    Owner: 'Siddhartha Dhar Choudhury',
+    profiles: [
+      {
+        github: 'https://github.com/frankhart2018',
+        linkedin: 'https://www.linkedin.com/in/siddhartha-dhar/',
+      }
+    ],
+    Description: `Often people have trouble programming in C (especially beginners) due to its low level syntax and unavailability of stable third party libraries. We present sim-C a high-level front end for C which creates a dynamically typed syntax for C. User can write code in this high level syntax and then compile it to optimized C code. sim-C does not process the code and simply translates it to C thus, there is no possibility of the code running slowly. So, with sim-C users can write code faster using the high level syntax and at the same time be able to harness the power and speed of a C program. Let us make C cool again.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Spotify Recommendation Engine',
+    Repo: 'https://github.com/ucalyptus/Spotify-Recommendation-Engine',
+    Owner: 'Sayantan Das',
+    profiles: [
+      {
+        github: 'https://github.com/ucalyptus',
+        linkedin: 'https://www.linkedin.com/in/ucalyptus/',
+      }
+    ],
+    Description: `This is a rapid prototyped presentation of how a Spotify Recommendation Engine should work . A system that recommends songs from your existing playlists using Spotify API and a bit of classical machine learning techniques.
+    Vision
+    To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Community-website',
+    Repo: 'https://github.com/HITK-TECH-Community/Community-Website',
+    Owner: 'Kajol Kumari',
+    profiles: [
+      {
+        github: 'https://github.com/Kajol-Kumari',
+        linkedin: 'https://www.linkedin.com/in/kajol-kumari-73245b166',
+      }
+    ],
+    Description: `Being from tier-2 and tier-3 colleges, you often face the problem of knowledge gap in our college days. But once you begin walking in the path of tech, you discover a place where people are just like you. 😇✨ We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️ This project aims to build the official site for the community page so that any student can use the resources shared by us.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 ];
 
 
