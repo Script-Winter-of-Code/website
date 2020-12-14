@@ -42,6 +42,19 @@ const projectsData = [
     Description: `An open-source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world`,
     TechStack: ["HTML", "CSS", "JS"]
   },
+  
+   Name: 'Internship Onboarding Platform',
+    Repo: 'https://github.com/praveenscience/Internship-LMS-FrontEnd',
+    Owner: 'Praveen Kumar Purushothaman',
+    profiles: [
+      {
+        github: 'https://github.com/praveenscience',
+        linkedin: 'https://www.linkedin.com/in/praveentech/',
+      }
+    ],
+    Description: `A nice way to onboard new interns to projects and teach them too.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 
   {
     Name: 'Doc2Pen',
@@ -99,6 +112,8 @@ const projectsData = [
     Description: `This project [ I have kept the name weird but it makes sense ] is for creating an open-source template that any developer, data scientist, researcher, or hobbyist can use for building a prototype of their Artificial Intelligence model(algorithm) dealing with images and performing tasks like Image Classification, Object Detection, Post Estimation, etc and then host it easily using services like Heroku, AWS, GCP and others. We believe the 2020s are the years where ML models need to come out of the Jupyter Notebooks for some and every reason and we want to make the process simpler for a lot of people who get intimidated or don't have much time to do it from scratch. [ Currently, we are just laser-focused on Deep Learning based approach and that too Image Classification. But with the passage of time, we intend to make it more generalized]`,
     TechStack: ["HTML", "CSS", "JS"]
   },
+    
+  
 
   {
     Name: 'Alexa-skills-starters',
