@@ -56,6 +56,21 @@ const projectsData = [
     Description: `Doc2Pen started as a pet project to help my fellow batchmates cope up with the needs of doing several handwritten assignments amidst the pandemic. Now are expanding as a small yet bonded open source project that aims to make the academic lives of our students easier, one function at a time. I am looking forward to integrating features like drawing, UML, quiz, a platform to practice timed responses for exams like TOEFL, GRE, IELTS [especially the Writing part. I personally need this as I had 1 day to study and score a 115/120] and in the far future an open-source plagiarism checker [because Grammarly cannot be trusted fully for research work and Turnitin is mostly available to faculties]`,
     TechStack: ["React JS", "Django"]
   },
+  
+  {
+    Name: 'Face Mask Detection',
+    Repo: 'https://github.com/chandrikadeb7/Face-Mask-Detection',
+    Owner: 'Chandrika Deb',
+    profiles: [
+      {
+        github: 'https://github.com/chandrikadeb7',
+        linkedin: 'https://www.linkedin.com/in/chandrika-deb/',
+      }
+    ],
+    Description: `Face Mask Detection system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.`,
+    TechStack: ["Python", "Deep Learning", "Computer Vision"]
+  },
+
 
   {
     Name: 'ArtCV',
