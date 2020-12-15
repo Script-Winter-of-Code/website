@@ -43,6 +43,7 @@ const projectsData = [
     TechStack: ["HTML", "CSS", "JS"]
   },
   
+  {
    Name: 'Internship Onboarding Platform',
     Repo: 'https://github.com/praveenscience/Internship-LMS-FrontEnd',
     Owner: 'Praveen Kumar Purushothaman',
