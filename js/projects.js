@@ -42,9 +42,9 @@ const projectsData = [
     Description: `An open-source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world`,
     TechStack: ["HTML", "CSS", "JS"]
   },
-  
+
   {
-   Name: 'Internship Onboarding Platform',
+    Name: 'Internship Onboarding Platform',
     Repo: 'https://github.com/praveenscience/Internship-LMS-FrontEnd',
     Owner: 'Praveen Kumar Purushothaman',
     profiles: [
@@ -70,7 +70,7 @@ const projectsData = [
     Description: `Doc2Pen started as a pet project to help my fellow batchmates cope up with the needs of doing several handwritten assignments amidst the pandemic. Now are expanding as a small yet bonded open source project that aims to make the academic lives of our students easier, one function at a time. I am looking forward to integrating features like drawing, UML, quiz, a platform to practice timed responses for exams like TOEFL, GRE, IELTS [especially the Writing part. I personally need this as I had 1 day to study and score a 115/120] and in the far future an open-source plagiarism checker [because Grammarly cannot be trusted fully for research work and Turnitin is mostly available to faculties]`,
     TechStack: ["React JS", "Django"]
   },
-  
+
   {
     Name: 'Face Mask Detection',
     Repo: 'https://github.com/chandrikadeb7/Face-Mask-Detection',
@@ -113,8 +113,8 @@ const projectsData = [
     Description: `This project [ I have kept the name weird but it makes sense ] is for creating an open-source template that any developer, data scientist, researcher, or hobbyist can use for building a prototype of their Artificial Intelligence model(algorithm) dealing with images and performing tasks like Image Classification, Object Detection, Post Estimation, etc and then host it easily using services like Heroku, AWS, GCP and others. We believe the 2020s are the years where ML models need to come out of the Jupyter Notebooks for some and every reason and we want to make the process simpler for a lot of people who get intimidated or don't have much time to do it from scratch. [ Currently, we are just laser-focused on Deep Learning based approach and that too Image Classification. But with the passage of time, we intend to make it more generalized]`,
     TechStack: ["HTML", "CSS", "JS"]
   },
-    
-  
+
+
 
   {
     Name: 'Alexa-skills-starters',
@@ -518,6 +518,209 @@ const projectsData = [
       }
     ],
     Description: `Being from tier-2 and tier-3 colleges, you often face the problem of knowledge gap in our college days. But once you begin walking in the path of tech, you discover a place where people are just like you. 😇✨ We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️ This project aims to build the official site for the community page so that any student can use the resources shared by us.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Rotten Scripts',
+    Repo: 'https://github.com/HarshCasper/Rotten-Scripts',
+    Owner: 'Harsh Bardhan Mishra',
+    profiles: [
+      {
+        github: 'https://github.com/harshcasper',
+        linkedin: 'https://www.linkedin.com/in/harshcasper',
+      }
+    ],
+    Description: `Rotten Scripts contains amazing and awesome scripts written in Python, JavaScript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Rajappan',
+    Repo: 'https://github.com/kaiiyer/rajappan',
+    Owner: 'Kai Iyer',
+    profiles: [
+      {
+        github: 'https://github.com/kaiiyer',
+        linkedin: 'https://www.linkedin.com/in/anoop-krishnan47/',
+      }
+    ],
+    Description: `The All in one Security project for Digital Privacy. A step towards a better & secure Internet`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Github Spy',
+    Repo: 'https://github.com/YashKumarVerma/github-spy',
+    Owner: 'Yash Kumar Verma',
+    profiles: [
+      {
+        github: 'https://github.com/yashkumarverma',
+        linkedin: 'https://www.linkedin.com/in/yash-kumar-verma/',
+      }
+    ],
+    Description: `"Do you lead an organization? or are you a maintainer of some open source project? Even if you are neither of the above, there can be instances when you might be required to generate quick reports of any Github organization. This can cover anything as simple as getting the name of all repositories or things a bit tricky like ensuring projects contain a particular structure.
+    GithubSpy is the bot that you need. With a robust structure to develop upon, we are looking for contributors willing to add more features."`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Helping Hand',
+    Repo: 'https://github.com/Ritwik880/Helping-Hand',
+    Owner: 'Ritwik Sinha',
+    profiles: [
+      {
+        github: 'https://github.com/Ritwik880',
+        linkedin: 'https://www.linkedin.com/in/ritwik-sinha-8854a2146/',
+      }
+    ],
+    Description: `Even with the rise of tools and technologies, mankind hasn’t implemented applications that could help visually impaired people. Our Application aims to bridge the gap between them and the visual world by leveraging the power of Deep Learning which can be made accessible even on low-ended devices with a lucid User-Interface that would exactly allow them to better understand the world around.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Friday',
+    Repo: 'https://github.com/avinashkranjan/Friday',
+    Owner: 'Avinash Kumar Ranjan',
+    profiles: [
+      {
+        github: 'https://github.com/avinashkranjan',
+        linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
+      }
+    ],
+    Description: `Since after the pandemic almost everything has been moved on virtual world So has Education. All our classes has been moved online and with that all our assignments, test, exams, Viva are being held on online platform as well, With so many assignments deadlines, upcoming exams dates and being busy with our life we forget the deadlines and exam dates on most occasion. I don't know how many of you but it happens to me frequently. So I came up with this app which once feeded with all the required data it'll remind you of the Assignement deadlines, upcoming exams, unfinished homework. So, you can plan your schedule accordingly.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Breast Cancer Predictor',
+    Repo: 'https://github.com/srimani-programmer/Breast-Cancer-Predictor/',
+    Owner: 'SRI MANIKANTA PALAKOLLU',
+    profiles: [
+      {
+        github: 'https://github.com/srimani-programmer',
+        linkedin: 'https://www.linkedin.com/in/srimani-programmer/',
+      }
+    ],
+    Description: `Breast cancer is the most common type of cancer in women. When cancers are found early, they can often be cured. There are some devices that detect breast cancer but many times they lead to false positives, which results in patients undergoing painful, expensive surgeries that were not even necessary. These types of cancers are called benign which do not require surgeries and we can reduce these unnecessary surgeries by using Machine Learning. These predictions will help doctors to do surgeries only when the cancer is malignant, thus reducing unnecessary surgeries for a woman. This project helps us to identify breast cancer in women that helps us to save many lives.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'HackStation',
+    Repo: 'https://github.com/ashishnagpal2498/hackstation',
+    Owner: 'Ashish Nagpal',
+    profiles: [
+      {
+        github: 'https://github.com/ashishnagpal2498',
+        linkedin: 'https://www.linkedin.com/in/ashish-nagpal24',
+      }
+    ],
+    Description: `"Ever missed a coding contest because you completely forget about it or misinterpret the timing, worked anonymous number of hours and still aren't able to convince your boss that you're working. Well we get it all covered for you.
+    We at HackStation provide a platform to share your work in number. Get your working graph reminders for coding contests and share your work among your peers. All you need to do is tell us who you are ? The project will be divided into two parts depending upon whether the user is a developer or an organization. A separate platform for developers as well as organization. For user the basic options available will be dashboard, coding contest reminders profile, whereas for organization productivity will be divided into teams and graphs shown accordingly."`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'ChessJS',
+    Repo: 'https://github.com/ashishpapanai/chessJS',
+    Owner: 'Ashish Papanai',
+    profiles: [
+      {
+        github: 'https://github.com/ashishpapanai',
+        linkedin: 'Https://linkedin.com/in/ashishpapanai',
+      }
+    ],
+    Description: `It's a 2300+ ELO Rated JavaScript-based ChessEngine which helps to analyse moves and play with another AI Chess Engine`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Realate',
+    Repo: 'https://github.com/deluminators/Realate',
+    Owner: 'Sanjiban Sengupta',
+    profiles: [
+      {
+        github: 'https://github.com/kahanikaar',
+        linkedin: 'https://www.linkedin.com/in/sanjiban-sengupta/',
+      }
+    ],
+    Description: `"real-time real-estate data prediction & analysis
+    A robust application providing support for predicting and detecting land quality & cover, its optimal usage for building flats or property, its generative model, and optimal paths to electric/water/sewage reserve."`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'ModernBanking-Management-System',
+    Repo: 'https://github.com/spandey1296/ModernBanking-Management-System',
+    Owner: 'SHIVANT KUMAR PANDEY',
+    profiles: [
+      {
+        github: 'https://github.com/spandey1296',
+        linkedin: 'https://www.linkedin.com/in/shivantkumarpandey/',
+      }
+    ],
+    Description: `This is a modern banking project that has the facility to provide all services on a single platform such as internet banking, wealth management, loan facility, and get information about money transfer updates.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'CityonBikes',
+    Repo: 'https://github.com/preeti13456/CityonBikes',
+    Owner: 'Preeti Sharma',
+    profiles: [
+      {
+        github: 'https://github.com/Preeti13456',
+        linkedin: 'https://www.linkedin.com/in/preeti-sharma-155a85181/',
+      }
+    ],
+    Description: `"Created a website for renting bikes
+    https://cityonbikes.herokuapp.com/"`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'StarBook',
+    Repo: 'https://github.com/hashirshoaeb/star_book',
+    Owner: 'Hashir Shoaib',
+    profiles: [
+      {
+        github: 'https://github.com/hashirshoaeb',
+        linkedin: 'https://www.linkedin.com/in/hashirshoaeb/',
+      }
+    ],
+    Description: `“StarBook” is a digital diary, and a mood tracking app. The user will be able to rate his mood for each day and write a short story for him, like how his day was. Color is given to each mood, let’s say, green for a happy mood, red for angry and yellow for a sad mood. The statistics of users will be visualized in a methodical structure. For this the app will form a graph, calendar, each date box is colored with the color of users' aura lets say green for positive spirits. StarBook will cooperate with users to boost their positive energy and train healthy thinking, correspondingly moving towards calmer and patient personality. StarBook will use positive psychology and cognitive behavioral therapy for you to better understand yourself, overcoming stress, anxiety, and depressions. The app is all in all focused to give personalized experience to every individual user, increasing their productivity, objectivity, and emotional health.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'Jagrati WebApp',
+    Repo: 'https://github.com/garg3133/JagratiWebApp',
+    Owner: 'Priyansh Garg',
+    profiles: [
+      {
+        github: 'https://github.com/garg3133',
+        linkedin: 'https://www.linkedin.com/in/priyansh3133/',
+      }
+    ],
+    Description: `"Jagrati is an initiative by the students of IIITDM Jabalpur (started in 2009) to teach poor and under-privileged children of nearby villages at IIITDM Jabalpur, completely free of cost. Before COVID, we had around 100 students, from the 4 villages adopted by us in the vicinity of our institute, who used to come to our institute in the evening to take classes.
+    Apart from the basic classes, we also prepare students of Class 5 for Navodaya Entrance Examination and we've received great results in past years where one of our students got selected in Navodaya in 2018, one in 2019 and two in 2020.
+    So, this project is a little initiative from my side to help volunteers manage the classes and other day-to-day operations at Jagrati in a better way and make it easier for them to keep track of students, classwork-homework given to them, their attendances and other things and focus more on teaching than these side activities.
+    You may find more details about the project here: https://github.com/garg3133/JagratiWebApp"`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+
+  {
+    Name: 'samparak',
+    Repo: 'https://github.com/The-Robotics-Forum/samparak',
+    Owner: 'The Robertic Forum',
+    profiles: [
+      {
+        github: 'https://github.com/The-Robotics-Forum',
+        linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
+      }
+    ],
+    Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
     TechStack: ["Flutter", "Firebase", "SQlite"]
   },
 ];

@@ -166,6 +166,7 @@ body {
     font-size: 13px;
     font-weight: 300;
     margin: 0.1rem 0;
+    overflow-wrap: break-word;
 }
 
 .swiper-slide .card-stack {
