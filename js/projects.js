@@ -710,6 +710,52 @@ const projectsData = [
     Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
     TechStack: ["Flutter", "Firebase", "SQlite"]
   },
+  
+  {
+    Name: 'Stack Over Flow Tag Predictions',
+    Repo: 'https://github.com/Technocolabs100/Stack-Overflow-Tag-Predictions',
+    Owner: 'Yasin Shah',
+    profiles: [
+      {
+        github: 'https://www.github.com/Yasin-Shah',
+        linkedin: 'https://www.linkedin.com/in/yasin-shah-139970141/',
+      }
+    ],
+    Description: `"Our classifiers performed reasonably well;
+they succeeded in predicting at least one
+correct tag for many questions correctly, even
+if they did not predict every tag correctly.
+• Because of the sparsity of the tags present
+in our dataset, we were curious as to
+whether tag prevalence in the dataset was
+strongly correlated with the performance of
+that tag’s corresponding classifier.
+• However, our analysis showed that a better
+criterion for success of a classifier is how
+unique its tag is, and if there are other
+words in the vocabulary which uniquely
+identify it.
+• While tags which are easy to predict
+usually correspond to some specific
+keywords, tags which are difficult to predict
+usually cover a larger subject area, are
+Our more broad, or have many applications."`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+  
+  {
+    Name: 'Review My Project',
+    Repo: 'https://github.com/Technocolabs100/Stack-Overflow-Tag-Predictions',
+    Owner: 'Yasin Shah',
+    profiles: [
+      {
+        github: 'https://www.github.com/Yasin-Shah',
+        linkedin: 'https://www.linkedin.com/in/yasin-shah-139970141/',
+      }
+    ],
+    Description: `Create a Web Application that User Have to Submit your own Project details like working videos, links, photos, and their code to review by Developer experts.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
 ];
 
 
