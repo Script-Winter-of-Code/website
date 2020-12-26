@@ -214,21 +214,28 @@ body {
     margin-top: 2px;
 }
 
-.swiper-slide::after {
-    /* content: '';
+.swiper-slide .card-num {
+    content: '';
     position: absolute;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    background: #f9bdc6;
-    top: 11rem;
+    height: 1.15rem;
+    width: 3.5rem;
+    font-size: 12px;
+    border-radius: 40px;
+    background: #6C63FF;
+    top: -0.5rem;
     left: 50%;
-    transform: translateX(-50%); */
+    transform: translateX(-50%);
+    transition: 0.3s;
 }
 
 .swiper-slide:hover {
     background: #6C63FF;
     height: 220px;
+}
+
+.swiper-slide:hover .card-num {
+    background: #f9bdc6;
+    color: #444;
 }
 
 .swiper-slide:hover .play-card {
@@ -424,6 +431,12 @@ body {
     .swiper-slide {
         width: 190px !important;
     }
+    .swiper-slide .card-num{
+        top: -0.4rem;
+        font-size: 10px;
+        height: 1rem;
+        width: 3rem;
+    } 
     .swiper-slide h5 {
         font-size: 14px;
         padding-top: 1.7rem;

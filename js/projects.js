@@ -742,8 +742,9 @@ const generateCards = cardDetail => {
   const { Name, Repo, Owner, profiles, Description, TechStack } = cardDetail;
 
   const projectCard = `
-  <div class="swiper-slide" onclick="displayProject('${id}','true')">
-    <h5><a href="${Repo}" target="_blank">${Name}</a></h5>
+  <div class="swiper-slide" id="${id}" onclick="displayProject('${id}','true')">
+  <div class="card-num">${id+1}</div>
+  <h5><a href="${Repo}" target="_blank">${Name}</a></h5>
     <p class="p-limit">${limitWords(Description, 10)}</p>
     <!--<p class="card-stack">${TechStack}</p>-->
     <!--<a href="${Repo}" target="_blank">Go to Repo</a>-->
@@ -782,6 +783,21 @@ function changeProjectsDetail(e) {
   authorProfileLink[1].setAttribute("href", `${projectsData[e].profiles[0].linkedin}`);
   document.querySelector(".proj-info .tech-stack .stack-btns").innerHTML = `${generateStack(projectsData[e].TechStack)}`;
 }
+
+// $(".proj-info .tech-stack button").click(function () {
+//   console.log("success");
+//   var key = $(this).text().toLowerCase();
+//   $(".swiper-slide").filter(function () {
+//     var isSameTechStack = false;
+//     thisStack = projectsData[$(this).attr('id')].TechStack;
+//     thisStack.forEach(function (e) {
+//       if (e.toLowerCase() == key) {
+//         isSameTechStack = true;
+//       }
+//     })
+//     $(this).toggle(isSameTechStack);
+//   });
+// });
 
 function displayProject(el, isClicked) {
   if (isClicked == 'true') {
