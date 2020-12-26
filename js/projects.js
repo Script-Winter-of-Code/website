@@ -698,8 +698,8 @@ const projectsData = [
   },
 
   {
-    Name: 'samparak',
-    Repo: 'https://github.com/The-Robotics-Forum/samparak',
+    Name: 'Sampark',
+    Repo: 'https://github.com/The-Robotics-Forum/sampark',
     Owner: 'The Robertics Forum',
     profiles: [
       {
