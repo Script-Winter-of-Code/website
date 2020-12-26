@@ -772,7 +772,7 @@ Our more broad, or have many applications."`,
   },
   
    {
-    Name: 'Tejas Sudhir Tapas',
+    Name: 'Hacking-Scripts',
     Repo: 'https://github.com/Tejas1510/Hacking-Scripts',
     Owner: 'Tejas Sudhir Tapas',
     profiles: [
@@ -782,6 +782,23 @@ Our more broad, or have many applications."`,
       }
     ],
     Description: `Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.`,
+    TechStack: ["Flutter", "Firebase", "SQlite"]
+  },
+  
+  {
+    Name: 'Manthan',
+    Repo: 'https://github.com/Manthan933/Manthan',
+    Owner: 'Avishanker Mishra',
+    profiles: [
+      {
+        github: '#',
+        linkedin: '#',
+      }
+    ],
+    Description: `"1. Improve the backend performance using Node.js and Express.js.
+2. Improve REST API by latest programming techniques.
+3. Form frontend, you have to implement multiple components in react and improve some basic components.
+ 4. Dockerizing the application with local mogodb and integrate Travis CI with this project ."`,
     TechStack: ["Flutter", "Firebase", "SQlite"]
   },
 ];
