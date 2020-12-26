@@ -700,7 +700,7 @@ const projectsData = [
   {
     Name: 'samparak',
     Repo: 'https://github.com/The-Robotics-Forum/samparak',
-    Owner: 'The Robertic Forum',
+    Owner: 'The Robertics Forum',
     profiles: [
       {
         github: 'https://github.com/The-Robotics-Forum',
