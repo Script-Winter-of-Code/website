@@ -564,20 +564,7 @@ const projectsData = [
     TechStack: ["Flutter", "Firebase", "SQlite"]
   },
 
-  {
-    Name: 'Helping Hand',
-    Repo: 'https://github.com/Ritwik880/Helping-Hand',
-    Owner: 'Ritwik Sinha',
-    profiles: [
-      {
-        github: 'https://github.com/Ritwik880',
-        linkedin: 'https://www.linkedin.com/in/ritwik-sinha-8854a2146/',
-      }
-    ],
-    Description: `Even with the rise of tools and technologies, mankind hasn’t implemented applications that could help visually impaired people. Our Application aims to bridge the gap between them and the visual world by leveraging the power of Deep Learning which can be made accessible even on low-ended devices with a lucid User-Interface that would exactly allow them to better understand the world around.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
-  },
-
+ 
   {
     Name: 'Friday',
     Repo: 'https://github.com/avinashkranjan/Friday',
