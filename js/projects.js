@@ -12,7 +12,7 @@ const projectsData = [
       }
     ],
     Description: `CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   {
@@ -26,7 +26,7 @@ const projectsData = [
       }
     ],
     Description: `The aim of this project is to create an online interactive guide for digital logic design. The primary goal is to develop an open sourcebook with quality content that teaches digital logic design. It will enable students to learn digital design by interacting with circuits, truth table, and other interactive elements as they proceed through the book. The professors and students all over the world can read and contribute to the same.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   {
@@ -54,7 +54,7 @@ const projectsData = [
       }
     ],
     Description: `A nice way to onboard new interns to projects and teach them too.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["MERN", "ReactJS", "NodeJS", "bootstrap5", "ExpressJS"]
   },
 
   {
@@ -159,7 +159,7 @@ const projectsData = [
     ],
     Description: `"Our intention is to give shoppers of our storefront the option of AR features with an android application. A complete virtual store that gives users the chance to experience the masks, clothing, and other commodities in AR.
     As of this year, Google has recently announced many more ARCore features to be made available over the web(which is currently pending public release) and Android. Having implemented ARkit and Arcore, we felt it’s time to get the word out there on the true capabilities of these features."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   // {
@@ -259,7 +259,7 @@ const projectsData = [
   //   Autocomplete Search
   //   Comparison between two GitHub Profiles
   //   Debouncing for minimizing the API Calls."`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
+  //   TechStack: []
   // },
 
   {
@@ -390,7 +390,7 @@ const projectsData = [
   //   Backend:  Django(Python framework)
   //   Github Repo-
   //   https://github.com/harsh-9in/Blogger`,
-  //   TechStack: ["Flutter", "Firebase", "SQlite"]
+  //   TechStack: []
   // },
 
   {
@@ -504,7 +504,7 @@ const projectsData = [
     Description: `This is a rapid prototyped presentation of how a Spotify Recommendation Engine should work . A system that recommends songs from your existing playlists using Spotify API and a bit of classical machine learning techniques.
     Vision
     To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   {
@@ -546,7 +546,7 @@ const projectsData = [
       }
     ],
     Description: `The All in one Security project for Digital Privacy. A step towards a better & secure Internet`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   {
@@ -677,7 +677,7 @@ const projectsData = [
       }
     ],
     Description: `“StarBook” is a digital diary, and a mood tracking app. The user will be able to rate his mood for each day and write a short story for him, like how his day was. Color is given to each mood, let’s say, green for a happy mood, red for angry and yellow for a sad mood. The statistics of users will be visualized in a methodical structure. For this the app will form a graph, calendar, each date box is colored with the color of users' aura lets say green for positive spirits. StarBook will cooperate with users to boost their positive energy and train healthy thinking, correspondingly moving towards calmer and patient personality. StarBook will use positive psychology and cognitive behavioral therapy for you to better understand yourself, overcoming stress, anxiety, and depressions. The app is all in all focused to give personalized experience to every individual user, increasing their productivity, objectivity, and emotional health.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
 
   {
@@ -708,7 +708,7 @@ const projectsData = [
       }
     ],
     Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: []
   },
   
   {
@@ -819,6 +819,7 @@ var id = 0;
 const generateCards = cardDetail => {
   const { Name, Repo, Owner, profiles, Description, TechStack } = cardDetail;
 
+  
   const projectCard = `
   <div class="swiper-slide" id="${id}" onclick="displayProject('${id}','true')">
   <div class="card-num">${id+1}</div>
@@ -863,6 +864,12 @@ function changeProjectsDetail(e) {
   authorProfileLink[0].setAttribute("href", `${projectsData[e].profiles[0].github}`);
   authorProfileLink[1].setAttribute("href", `${projectsData[e].profiles[0].linkedin}`);
   document.querySelector(".proj-info .tech-stack .stack-btns").innerHTML = `${generateStack(projectsData[e].TechStack)}`;
+  if (!projectsData[e].TechStack.length) {
+    document.querySelector(".proj-info .tech-stack").style.display = "none";
+  }
+  else {
+    document.querySelector(".proj-info .tech-stack").style.display = "block";
+  }
 }
 
 // function filterStack(el) {
