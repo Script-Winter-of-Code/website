@@ -176,14 +176,14 @@ body {
     margin: 0.3rem 0;
 }
 
-.swiper-slide button {
+.swiper-slide span {
     border: none;
     outline: none;
     color: #fff;
-    background: #6C63FF;
+    background: none;
     border-radius: 20px;
-    /* padding: 0.2rem 0.8rem; */
-    margin: 0.2rem 0.05rem;
+    /* padding: 0.1rem 0.5rem; */
+    /* margin: 0.2rem 0.05rem; */
     font-size: 0.65rem;
     transition: 0.4s;
 }
