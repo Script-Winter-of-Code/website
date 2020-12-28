@@ -205,18 +205,24 @@ const generateCards = cardDetail => {
         <span>${position}</span>
     </p>
   </card>`;
-  return teamCard;
+  Team.innerHTML += teamCard;
+  // return teamCard;
 };
 
 // Creates cards through `generateCards()` for each team
-const injectCardsToPage = (team) => {
-  let members = team.map((item) => {
-    return generateCards(item)
-  })
+const injectCardsToPage = () => {
+  // let members = team.map((item) => {
+  //   return generateCards(item)
+  // })
 
-  return members;
+  // return members;
+  teamData.forEach(teamMember => {
+		generateCards(teamMember);
+  });
+  
 };
 
 
 //Team
-Team.innerHTML = injectCardsToPage(teamData);
+// Team.innerHTML = injectCardsToPage(teamData);
+injectCardsToPage();

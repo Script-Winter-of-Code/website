@@ -808,7 +808,7 @@ Our more broad, or have many applications."`,
 const generateStack = stackArray => {
   let result = [];
   for (let stackElement in stackArray) {
-    const listItem = `<button>${stackArray[stackElement]}</button>`;
+    const listItem = `<button onclick="filterStack('${stackArray[stackElement]}')">${stackArray[stackElement]}</button>`;
     result.push(listItem);
   }
   return result.join(' ');
@@ -830,21 +830,24 @@ const generateCards = cardDetail => {
   </div>
   `;
   id++;
-  return projectCard;
+  document.querySelector(".swiper-wrapper").innerHTML += projectCard;
+  // return projectCard;
 };
 
 // Creates cards through `generateCards()` for each team
-const injectCardsToPage = (project) => {
-  let members = project.map((item) => {
-    return generateCards(item)
-  })
+const injectCardsToPage = () => {
+  // let projectCards = project.map((item) => {
+  //   return generateCards(item)
+  // })
 
-  return members;
+  // return projectCards;
+  projectsData.forEach((item) => {
+    generateCards(item);
+  })
 };
 
-
-//Team
-document.querySelector(".swiper-wrapper").innerHTML = injectCardsToPage(projectsData);
+// document.querySelector(".swiper-wrapper").innerHTML = injectCardsToPage(projectsData);
+injectCardsToPage();
 
 const projParagraph = document.querySelector(".proj-info .proj-descrp .descrp");
 const projNameAndRepo = document.querySelector(".proj-info .proj-descrp .proj-project");
@@ -862,12 +865,11 @@ function changeProjectsDetail(e) {
   document.querySelector(".proj-info .tech-stack .stack-btns").innerHTML = `${generateStack(projectsData[e].TechStack)}`;
 }
 
-// $(".proj-info .tech-stack button").click(function () {
-//   console.log("success");
-//   var key = $(this).text().toLowerCase();
+// function filterStack(el) {
+//   var key = el.toLowerCase();
 //   $(".swiper-slide").filter(function () {
 //     var isSameTechStack = false;
-//     thisStack = projectsData[$(this).attr('id')].TechStack;
+//     var thisStack = projectsData[$(this).attr('id')].TechStack;
 //     thisStack.forEach(function (e) {
 //       if (e.toLowerCase() == key) {
 //         isSameTechStack = true;
@@ -875,12 +877,35 @@ function changeProjectsDetail(e) {
 //     })
 //     $(this).toggle(isSameTechStack);
 //   });
-// });
+// }
+
+// Element.prototype.toggleHTML = function() { 
+
+//     if ( this.style.display == '' || this.style.display == 'block' ) { 
+//         this.style.display = 'none';
+//     }else{
+//         this.style.display = 'block';
+//    }
+// }
+
+// function filterStack(el) {
+//   var key = el.toLowerCase();
+//   document.querySelectorAll('.swiper-slide').forEach(item => {
+//     var isSameTechStack = false;
+//     var thisStack = projectsData[item.getAttribute("id")].TechStack;
+//     thisStack.forEach(e => {
+//       if (e.toLowerCase() == key) {
+//         isSameTechStack = true;
+//       }
+//     })
+//     item.toggleHTML(isSameTechStack);
+//   });
+// }
 
 function displayProject(el, isClicked) {
-  if (isClicked == 'true') {
-    clearInterval(Interval);
-  }
+  // if (isClicked == 'true') {
+  //   clearInterval(Interval);
+  // }
   const getStack = generateStack(projectsData[el].TechStack);
 
   projParagraph.className = "descrp fadeOutRight";
@@ -915,10 +940,10 @@ function limitWords(textToLimit, wordLimit) {
 changeProjectsDetail(0);
 
 var index = 1;
-var Interval = setInterval(function playCards() {
-  displayProject(index, 'false');
-  index++;
-  if (index == projectsData.length - 1) {
-    index = 0;
-  }
-}, 4000);
+// var Interval = setInterval(function playCards() {
+//   displayProject(index, 'false');
+//   index++;
+//   if (index == projectsData.length - 1) {
+//     index = 0;
+//   }
+// }, 4000);
