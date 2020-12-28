@@ -40,7 +40,7 @@ const projectsData = [
       }
     ],
     Description: `An open-source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world`,
-    TechStack: ["HTML", "CSS", "JS"]
+    TechStack: ["HTML", "CSS", "JS", "React", "NextJS"]
   },
 
   {
@@ -68,7 +68,7 @@ const projectsData = [
       }
     ],
     Description: `Doc2Pen started as a pet project to help my fellow batchmates cope up with the needs of doing several handwritten assignments amidst the pandemic. Now are expanding as a small yet bonded open source project that aims to make the academic lives of our students easier, one function at a time. I am looking forward to integrating features like drawing, UML, quiz, a platform to practice timed responses for exams like TOEFL, GRE, IELTS [especially the Writing part. I personally need this as I had 1 day to study and score a 115/120] and in the far future an open-source plagiarism checker [because Grammarly cannot be trusted fully for research work and Turnitin is mostly available to faculties]`,
-    TechStack: ["React JS", "Django"]
+    TechStack: ["HTML", "CSS", "JS", "React"]
   },
 
   {
@@ -97,7 +97,7 @@ const projectsData = [
       }
     ],
     Description: `ArtCV is an initiative to create a platform that makes use of Computer Vision, Image Processing, and Deep Learning [ mostly GANS and Variational Autoencoders] under the hood to provide us with various artistic outputs for any image. We are also exploring Bio-medical benefits using Ishihara Discs. This can be described as a measure to re-create something similar to PRISMA but with the power of the open source, without any associated bloatware and an added benefit of letting others learn Computer Vision while contributing to the project and getting to know about latest techniques which otherwise remain sealed in research papers posted every month!`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Python", "OpenCV", "TensorFlow", "StreamLit", "Image Processing", "Computer Vision"]
   },
 
   {
@@ -111,7 +111,7 @@ const projectsData = [
       }
     ],
     Description: `This project [ I have kept the name weird but it makes sense ] is for creating an open-source template that any developer, data scientist, researcher, or hobbyist can use for building a prototype of their Artificial Intelligence model(algorithm) dealing with images and performing tasks like Image Classification, Object Detection, Post Estimation, etc and then host it easily using services like Heroku, AWS, GCP and others. We believe the 2020s are the years where ML models need to come out of the Jupyter Notebooks for some and every reason and we want to make the process simpler for a lot of people who get intimidated or don't have much time to do it from scratch. [ Currently, we are just laser-focused on Deep Learning based approach and that too Image Classification. But with the passage of time, we intend to make it more generalized]`,
-    TechStack: ["HTML", "CSS", "JS"]
+    TechStack: ["StreamLit", "Python", "HTML", "CSS", "TensorFlow", "TensorFlow.JS"]
   },
 
 
@@ -144,7 +144,7 @@ const projectsData = [
     My inspirations - Suggests quotes and thoughts
     Touristy - Tells info about tourist places of Australia
     Hello world - my hosted skill`,
-    TechStack: ["React JS", "Django"]
+    TechStack: ["Javascript", "Python"]
   },
 
   {
@@ -273,7 +273,7 @@ const projectsData = [
       }
     ],
     Description: `Question paper generator helper, wiki: https://github.com/Team-Tomato/QP-Generator/wiki`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["React", "Flask"]
   },
 
   {
@@ -287,7 +287,7 @@ const projectsData = [
       }
     ],
     Description: `"Currently, the project aims to be a Python package for various data structures in computer science. Besides, we are also working on including parallel algorithms. To the best of our knowledge, a well-designed library/package which has covered most of the data structures and algorithms including their parallel implementation doesn't exist. In future, i.e, after a few releases of the package when the software design will become stable, we also aim to provide APIs for the code in C++ and Java as well."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Python 3.x", "Git"]
   },
 
   {
@@ -301,7 +301,7 @@ const projectsData = [
       }
     ],
     Description: `Water Monitoring System is an web based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["React", "Node.js"]
   },
 
   {
@@ -315,7 +315,7 @@ const projectsData = [
       }
     ],
     Description: `A go-to tool for scanning network. Scan all the open ports for a given host with just one click.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Python", "Flask"]
   },
 
   {
@@ -329,7 +329,7 @@ const projectsData = [
       }
     ],
     Description: `This is a very simple python package made up with python script to contain & study different algorithms for educational purposes. This project has been a part of FOSS Hack 2020 and PyCon India 2020 Devsprint before as well. The PyPI package can ve viewed here - https://pypi.org/project/eduAlgo/`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Python", "Algorithms"]
   },
 
   {
@@ -343,7 +343,7 @@ const projectsData = [
       }
     ],
     Description: `Ever wanted to get random data for that app you were building but didn't want to bloat your requests with unwanted data? We're here to help. Dolos is a server written in javascript which generates random data in the exact structure as is required by the user, at a blazing speed by serving only what's requested. Everything without using complex technologies like graphql. Perfect for beginners.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["JavaScript", "MySQL Database", "Data Mocking"]
   },
 
   {
@@ -357,7 +357,7 @@ const projectsData = [
       }
     ],
     Description: `Many a times when interview approaches, the interview preparing students start searching for different Data Structures and algorithm problems in the internet. This project is a website that has many previously asked interview questions and their solutions.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["HTML", "CSS", "Bootstrap", "Algorithms", "Python", "C++"]
   },
 
   {
@@ -371,7 +371,7 @@ const projectsData = [
       }
     ],
     Description: `A flutter based application for easy interaction between patients and doctors. During a Pandemic many of the patients are looking to get regular health check-ups but moving outside in such conditions seems risky.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Flutter", "Firebase"]
   },
 
   // {
@@ -404,7 +404,7 @@ const projectsData = [
       }
     ],
     Description: `It's a way to ease the online teaching process and make it more interactive and prodctive. For more details, do checkout https://github.com/Canvasbird/canvasboard`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Angular8", "MongoDB", "MongoDB", "React", "Express", "NodeJS"]
   },
 
   {
@@ -418,7 +418,7 @@ const projectsData = [
       }
     ],
     Description: `A curated collection of Amazing Python scripts from Basics to Advance with automation task scripts. This is your Personal space to find or add any new script that can make Life Easier as a Developer, and to find a utility of coding to burst out of boredom.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Python", "HTML", "CSS", "JavaScript", "Flask", "Markdown"]
   },
 
   {
@@ -432,7 +432,7 @@ const projectsData = [
       }
     ],
     Description: `The idea of the project is to customize all the ongoing projects under one roof. The website includes certain columns which is like working, in progress, done ,etc and once the student enters his/her details into the Website with the currently working project his details will be stored on the database and will show on the first column. After that when the Project comes in progress the cards of the column will shift to another column. We also have an admin login and signup where an admin can be assigned as a mentor to the particular student which he accepts by clicking the accept button shown in the popup window. This way it will work for different organisations . I thought to make it real for my coding club but now it's for all organization . This project is in progress as of now and I would like to include this in this open source program.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["HTML5", "CSS3", "Javascript", "MongoDB", "Nodejs"]
   },
 
   {
@@ -460,7 +460,7 @@ const projectsData = [
       }
     ],
     Description: `Friday - Your Personal Class Manager Assistant, It'll never let you miss another assignment deadline or upcoming test.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Flutter", "Dart", "HTML", "CSS", "JavaScript", "UI/UX", "Firebase"]
   },
 
   {
@@ -474,7 +474,7 @@ const projectsData = [
       }
     ],
     Description: `Become a part of an innovative and highly sought after platform. Does the idea of open source excite you but not sure where to begin or which project to choose? Often feel confused and uncomfortable while using GitHub, and can’t think of any available alternative? Well, you have arrived at the correct place ""CodeTrophs"" is an open source platform targeted solely for beginners to help them contribute to real life projects, from developing new ideas and approaches, to exploring the world of open sourcing.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Web Application", "Machine Learning"]
   },
 
   {
@@ -488,7 +488,7 @@ const projectsData = [
       }
     ],
     Description: `Often people have trouble programming in C (especially beginners) due to its low level syntax and unavailability of stable third party libraries. We present sim-C a high-level front end for C which creates a dynamically typed syntax for C. User can write code in this high level syntax and then compile it to optimized C code. sim-C does not process the code and simply translates it to C thus, there is no possibility of the code running slowly. So, with sim-C users can write code faster using the high level syntax and at the same time be able to harness the power and speed of a C program. Let us make C cool again.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["C", "Python", "Compiler Design"]
   },
 
   {
@@ -561,7 +561,7 @@ const projectsData = [
     ],
     Description: `"Do you lead an organization? or are you a maintainer of some open source project? Even if you are neither of the above, there can be instances when you might be required to generate quick reports of any Github organization. This can cover anything as simple as getting the name of all repositories or things a bit tricky like ensuring projects contain a particular structure.
     GithubSpy is the bot that you need. With a robust structure to develop upon, we are looking for contributors willing to add more features."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["JavaScript", "MySQL Database", "Data Mocking"]
   },
 
  
@@ -634,7 +634,7 @@ const projectsData = [
     ],
     Description: `"real-time real-estate data prediction & analysis
     A robust application providing support for predicting and detecting land quality & cover, its optimal usage for building flats or property, its generative model, and optimal paths to electric/water/sewage reserve."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Machine Learning", "Django", "React", "Tensorflow", "Pytorch", "Computer Vision", "OpenCV", "GANs"]
   },
 
   {
@@ -648,7 +648,7 @@ const projectsData = [
       }
     ],
     Description: `This is a modern banking project that has the facility to provide all services on a single platform such as internet banking, wealth management, loan facility, and get information about money transfer updates.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Kotlin"]
   },
 
   {
@@ -740,7 +740,7 @@ usually correspond to some specific
 keywords, tags which are difficult to predict
 usually cover a larger subject area, are
 Our more broad, or have many applications."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Data Science", "Machine Learning", "Data Analysis", "Deep learning"]
   },
   
   {
@@ -754,7 +754,7 @@ Our more broad, or have many applications."`,
       }
     ],
     Description: `Create a Web Application that User Have to Submit your own Project details like working videos, links, photos, and their code to review by Developer experts.`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["HTML", "CSS", "JavaScript", "PHP", "Mangodb", "MySql Database", "React", "NODE JS"]
   },
   
   {
@@ -799,7 +799,7 @@ Our more broad, or have many applications."`,
 2. Improve REST API by latest programming techniques.
 3. Form frontend, you have to implement multiple components in react and improve some basic components.
  4. Dockerizing the application with local mogodb and integrate Travis CI with this project ."`,
-    TechStack: ["Flutter", "Firebase", "SQlite"]
+    TechStack: ["Nodejs", "Reactjs", "Expressjs", "Mongodb", "Docker", "MaterialUI"]
   },
 ];
 
