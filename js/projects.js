@@ -450,9 +450,9 @@ const projectsData = [
   },
 
   {
-    Name: 'Avinash Kumar Ranjan',
+    Name: 'Friday',
     Repo: 'https://github.com/avinashkranjan/Friday',
-    Owner: 'Friday',
+    Owner: 'Avinash Kumar Ranjan',
     profiles: [
       {
         github: 'https://github.com/avinashkranjan',
@@ -504,7 +504,7 @@ const projectsData = [
     Description: `This is a rapid prototyped presentation of how a Spotify Recommendation Engine should work . A system that recommends songs from your existing playlists using Spotify API and a bit of classical machine learning techniques.
     Vision
     To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.`,
-    TechStack: []
+    TechStack: ["Python", "ML", "Fluttter"]
   },
 
   {
@@ -708,7 +708,7 @@ const projectsData = [
       }
     ],
     Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
-    TechStack: []
+    TechStack: ["MERN"]
   },
   
   {
