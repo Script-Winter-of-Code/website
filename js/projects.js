@@ -12,7 +12,7 @@ const projectsData = [
       }
     ],
     Description: `CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.`,
-    TechStack: []
+    TechStack: ["JavaScript", "Ruby", "HTML", "CSS"]
   },
 
   {
@@ -26,7 +26,7 @@ const projectsData = [
       }
     ],
     Description: `The aim of this project is to create an online interactive guide for digital logic design. The primary goal is to develop an open sourcebook with quality content that teaches digital logic design. It will enable students to learn digital design by interacting with circuits, truth table, and other interactive elements as they proceed through the book. The professors and students all over the world can read and contribute to the same.`,
-    TechStack: []
+    TechStack: ["JavaScript", "Jekyll", "HTML", "CSS", "Ruby"]
   },
 
   {
