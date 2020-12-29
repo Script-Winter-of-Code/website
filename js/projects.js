@@ -708,7 +708,21 @@ const projectsData = [
       }
     ],
     Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
-    TechStack: []
+    TechStack: ["MongoDB","ExpressJS","ReactJS","NodeJS","Socket.io"]
+  },
+  
+  {
+    Name: 'Netra',
+    Repo: 'https://github.com/The-Robotics-Forum/netra',
+    Owner: 'The Robertics Forum',
+    profiles: [
+      {
+        github: 'https://github.com/The-Robotics-Forum',
+        linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
+      }
+    ],
+    Description: `Android Application used in TRF's Flagship Level 1 Workshop every year.`,
+    TechStack: ["Kotlin","Google Vision API","OpenCV"]
   },
   
   {
