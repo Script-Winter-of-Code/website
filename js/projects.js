@@ -463,19 +463,7 @@ const projectsData = [
     TechStack: ["Flutter", "Dart", "HTML", "CSS", "JavaScript", "UI/UX", "Firebase"]
   },
 
-  {
-    Name: 'CodeTrophs',
-    Repo: 'https://github.com/CodeTrophs/Frontend',
-    Owner: 'Arya Soni',
-    profiles: [
-      {
-        github: 'https://github.com/aryasoni98',
-        linkedin: 'https://www.linkedin.com/in/aryasoni/',
-      }
-    ],
-    Description: `Become a part of an innovative and highly sought after platform. Does the idea of open source excite you but not sure where to begin or which project to choose? Often feel confused and uncomfortable while using GitHub, and can’t think of any available alternative? Well, you have arrived at the correct place ""CodeTrophs"" is an open source platform targeted solely for beginners to help them contribute to real life projects, from developing new ideas and approaches, to exploring the world of open sourcing.`,
-    TechStack: ["Web Application", "Machine Learning"]
-  },
+
 
   {
     Name: 'sim-C',
