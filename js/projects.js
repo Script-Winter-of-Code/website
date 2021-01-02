@@ -799,7 +799,7 @@ Our more broad, or have many applications."`,
         linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
       }
     ],
-    Description: `"Android Application used in TRF's Flagship Level 1 Workshop every year."`,
+    Description: `Android Application used in TRF's Flagship Level 1 Workshop every year.`,
     TechStack: ["Kotlin","OpenCV","Google vision API", "MaterialUI"]
   },
 ];
