@@ -789,6 +789,19 @@ Our more broad, or have many applications."`,
  4. Dockerizing the application with local mogodb and integrate Travis CI with this project ."`,
     TechStack: ["Nodejs", "Reactjs", "Expressjs", "Mongodb", "Docker", "MaterialUI"]
   },
+  {
+    Name: 'Netra',
+    Repo: 'https://github.com/The-Robotics-Forum/netra',
+    Owner: 'The Robotics Forum',
+    profiles: [
+      {
+        github: 'https://github.com/The-Robotics-Forum',
+        linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
+      }
+    ],
+    Description: `"Android Application used in TRF's Flagship Level 1 Workshop every year."`,
+    TechStack: ["Kotlin","OpenCV","Google vision API", "MaterialUI"]
+  },
 ];
 
 
