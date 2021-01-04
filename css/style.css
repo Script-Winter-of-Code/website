@@ -214,7 +214,7 @@ nav {
   box-shadow: 0 0.1em 0.4em -0.1em #616161;
   direction: rtl;
   z-index: 100;
-  transition: visibility 0.5s,transform 0.5s ease-in-out,opacity 0.5s ease-in;
+  transition: visibility 0.5s, transform 0.5s ease-in-out, opacity 0.5s ease-in;
 }
 
 .close {
@@ -224,8 +224,6 @@ nav {
   color: #e74c3c;
   cursor: pointer;
 }
-
-
 
 .hide {
   transform: translateY(3em);
@@ -241,10 +239,11 @@ nav {
   }
 }
 
-
 /*Timeline*/
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -527,7 +526,7 @@ span {
   transition: 0.7s ease;
 }
 
-.questions:checked~.answers {
+.questions:checked ~ .answers {
   max-height: 500px;
   opacity: 1;
   padding: 15px;
@@ -550,7 +549,7 @@ span {
   transition: 0.3s ease;
 }
 
-.questions:checked~.plus {
+.questions:checked ~ .plus {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -828,7 +827,7 @@ p .small {
     padding-top: 7%;
   }
   .logo-footer {
-    width: 80px;
+    width: 150%;
   }
   .f-contact h3 {
     font-size: 1.5rem;
@@ -879,13 +878,10 @@ p .small {
     font-size: 2.5rem;
   }
   .sponsor-img {
-    transform: translate(0, -50%)scale(0.7);
+    transform: translate(0, -50%) scale(0.7);
   }
   .img-div {
     margin-bottom: 2%;
-  }
-  .logo-footer {
-    width: 50px;
   }
   .f-contact {
     margin-top: 1.5rem;
