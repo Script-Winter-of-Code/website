@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+## Script Winter of Code
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Script Winter of Code is an Open Source program for everyone to get started with open source.
 
-## Available Scripts
+<b> Please do not send PRs to this repo. This site is build by the Script Winter of Code team.</b>
+## Website
 
-In the project directory, you can run:
+Bug report
+Reporting Bugs This section guides you through submitting a bug report for the website. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎.
 
-### `yarn start`
+- Before creating bug reports, please go through this list .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- When you are creating a bug report, please include as many details as possible.
+- Fill out the required template, the information it asks for helps us resolve issues faster.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Submitting A Bug Report
 
-### `yarn test`
+- Explain the problem and include the following details to help maintainers reproduce the problem:
+- Use a clear and descriptive title for the issue to identify the problem -
+- Describe the exact steps which reproduce the problem in as many details as possible.
+- Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior -
+- Explain which behavior you expected to see instead and why.
+- Include expected behavior and what went wrong.
+- Explain the steps to reproduce the behavior of the bug.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<b>The following infomation is a must -</b>
+1. Operating System - Windows,Linux or Mac.
+2. Browser
+3. Local installations
+Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem -
+Adding a visual of the bugs helps pinpoint the issues being faced.
 
-### `yarn build`
+## Template :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Title
+- Description
+- Hardware/Software details
+- Behavior
+- Feature enhancement/request
+- Name: Feature Request - "Name of feature"
+- About: "Explain in short . Please search for existing issues first . Also see CONTRIBUTING."
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please Describe The Problem To Be Solved
+Add the feature you want to update/solve. Explain it in detail,how are you planning to implement it,how do you envision it to work,the problems it would solve.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Suggest A Solution
+- Replace This Text: A concise description of your preferred solution. Things to address include:
+- Details of the technical implementation
+- Tradeoffs made in design decisions
+- Caveats and considerations for the future
+- If there are multiple solutions, please present each one separately. Save comparisons for the very end.
