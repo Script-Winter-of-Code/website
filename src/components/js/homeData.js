@@ -5,7 +5,7 @@ export const registerItems = [
         mentor budding open-source enthusiasts from all different 
         backgrounds. Find students and professionals that share your 
         vision.`,
-        applyLink: "https://jaisadana673401.typeform.com/to/l7xLw46s",
+        applyLink: "",
         applyStatus:"Registration Closed",
     },
     {
@@ -13,7 +13,7 @@ export const registerItems = [
         cardText: `Whether you’re a newbie or a seasoned professional, we have a 
         space for everyone. Apply now to become a part of something 
         exciting!`,
-        applyLink: "https://skillenza.com/challenge/swoc",
+        applyLink: "",
         applyStatus:"Registration Closed",
     },
     {
@@ -22,7 +22,7 @@ export const registerItems = [
         beacon of light for our participants! As a mentor, you will guide 
         one team with your insights and experience all through their 
         hackathon journey.`,
-        applyLink: "https://jaisadana673401.typeform.com/to/p8Q0UJ51",
+        applyLink: "",
         applyStatus:"Registration Closed",
     },
 ]
@@ -66,18 +66,55 @@ export const timelineItems = [
     },
 ]
 
+export const prizeItems = [
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+    {
+        prizeTitle: "Top contributors",
+        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
+    },
+]
+
 export const GoldSponsors = [
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/img/logos/GitHub_Logo.png",
+        sponsorImg: "/img/logos/GitHub_Logo.svg",
     },
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/img/logos/GitHub_Logo.png",
+        sponsorImg: "/img/logos/Polygon_Logo.svg",
     },
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/img/logos/GitHub_Logo.png",
+        sponsorImg: "/img/logos/Tezos_Logo.svg",
+    },
+    {
+        sponsorLink: "https://github.com/",
+        sponsorImg: "/img/logos/Celo_Logo.svg",
     },
 ]
 export const PlatformPartners = [

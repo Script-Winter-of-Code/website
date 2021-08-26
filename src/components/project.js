@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import './css/projects2.css'
+import './css/projects_new.scss'
 import { projectsDataLatest } from './js/2021projects';
 import { projectsDataPrevOne } from './js/2020projects';
 import Particles from 'react-particles-js';

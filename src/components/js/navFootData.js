@@ -13,7 +13,7 @@ export const navItems = [
     },
     {
         title: "Our Team",
-        url: "/team",
+        url: "/",
     },
     {
         title: "Contact Us",

@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import './css/style.css'
+import './css/outline.scss'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,7 +23,6 @@ class Index extends Component {
         this.state = {
             width: window.innerWidth,
             height: window.innerHeight,
-            page: "home",
         };
     }
 
@@ -138,7 +137,6 @@ class Index extends Component {
                                 </div>
                             </div>
                         </div>
-
 
                         <div className="footer-bottom">
                             <div className="f-bottom-row">

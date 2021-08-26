@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+:root {
+  --winter-w1: #eceef1;
+  --winter-w2: #081b24;
+  --winter-w3: #8a9c9b;
+  --winter-w4: #acc4d4;
+  --winter-w5: #d3e4e3;
+  --winter-link: #7ad9fe;
+  --winter-hover: rgba(158, 158, 158, 0.2);
+  --logo-l1: #f7931e;
+  --logo-l2: #0094ff;
+  --logo-l3: #8dc500;
+}
+
+
+.main-nav {
+  display: flex;
+  position: fixed;
+  background: unset;
+  width: 100%;
+  padding: 30px 8% 0;
+  z-index: 1000;
+  transition: 0.4s;
+  top: 0;
+}
+
+.win-resize {
+  background: var(--winter-w2);
+  position: relative;
+}
+
+.nav-scrolled {
+  background: var(--winter-w2) !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.4s;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo {
+  float: left;
+  padding: 0.2rem 0;
+  transition: 0.4s;
+  img {
+    width: 76px;
+    transition: 0.4s;
+  }
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-comps {
+  width: 100%;
+  transition: 0.4s;
+  margin: 0 auto;
+  height: 100%;
+  padding: 1rem 0;
+
+  ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    transition: 0.2s;
+
+    li {
+      position: relative;
+      padding: 2px 12px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+
+      a {
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: 0.2s;
+
+        &:hover {
+          color: var(--winter-link);
+          text-decoration: none;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          background: #6bc7b8;
+          height: 0;
+          width: 16px;
+          top: calc(100% - 0px);
+          left: 50%;
+          transform: translateX(-50%);
+          transition: 0.2s;
+          z-index: -100;
+        }
+      }
+    }
+  }
+}
+
+.comp-scrolled {
+  width: 42rem;
+  transition: 0.4s;
+  margin-right: 0;
+  padding: 0.5rem;
+
+  ul li a::before {
+    height: 0;
+    left: 12px;
+    transform: translateX(0);
+  }
+}
+
+/* .nav-comps ul li a::before {
+  content: "";
+  position: absolute;
+  background: #6bc7b8;
+  border-radius: 50%;
+  height: 3px;
+  width: 3px;
+  top: 46%;
+  left: -0.2rem;
+  transition: 0.2s;
+  z-index: -100;
+} */
+
+// .nav-comps ul li a:hover::before {
+//   /* border-radius: 40px; */
+//   border-radius: 0;
+//   height: 100%;
+//   width: 100%;
+//   /* top: 5%; */
+//   top: 0;
+//   left: 0;
+//   transform: translateX(0);
+//   /* background: #fff; */
+//   background: var(--winter-hover);
+// }
+
+.comp-scrolled ul li.nav-active a {
+  color: var(--winter-link);
+  text-decoration: none;
+
+  &:before {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--winter-hover);
+  }
+}
+
+.navbar-nav {
+  .nav-link {
+    color: white;
+    transition: 0.3s;
+    &:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+.hamburger-icon {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+/* footer */
+
+.footer-content {
+  // font-family: "Poppins", sans-serif;
+  background: var(--winter-w2);
+  color: #fff;
+  /* clip-path: polygon(100% 100%, 100% 6%, 0% 0%, 0% calc(100% - 0vw)); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 1.5vw));
+}
+
+.footer-top {
+  position: relative;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding: 5px 15px;
+  width: 100%;
+
+  button {
+    color: var(--winter-link);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .010em;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 1px 12px 0;
+    margin: 6px 8px;
+    line-height: 36px;
+    min-height: 36px;
+    vertical-align: bottom;
+    transition: 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--winter-hover);
+    }
+    i {
+      font-size: 21px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+}
+
+.fa-heart {
+  color: red;
+  font-size: 20px;
+}
+
+.footer-mid {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 10px 15px 90px;
+  width: 100%;
+
+  .f-content {
+    // font-family: "Poppins", sans-serif;
+    background: var(--winter-w2);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    .f-contact {
+      width: 50%;
+      flex-direction: column;
+      display: flex;
+    }
+    .f-logo {
+      display: flex;
+      width: 40%;
+      img {
+        width: 100%;
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+.f-nav {
+  display: flex;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    li {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: .010em;
+      line-height: 1.6em;
+      margin-top: 15px;
+
+      a {
+        font-size: 16px;
+        color: var(--winter-w4);
+      }
+    }
+  }
+  ul.f-nav-ul {
+    margin-left: 100px;
+  }
+}
+
+.footer-copyright-info {
+  padding: 10px 75px 0 0;
+  margin-top: auto;
+  color: #e7e8e9;
+}
+
+.footer-bottom {
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.f-bottom-row {
+  max-width: 100vw;
+  padding: 20px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-bottom {
+  display: flex;
+  padding-top: 5px;
+}
+
+.f-bottom-left p {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .54);
+  margin-right: 70px;
+}
+
+.f-bottom-right p {
+  font-size: 14px;
+  /* margin-bottom: 0.5rem; */
+  font-family: 'Poppins';
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 400;
+}
+
+.f-media {
+  a {
+  color: #666;
+  margin-left: 30px;
+  transition: 0.3s;
+    &:nth-of-type(1):hover {
+      color: #3b5999;
+    }
+
+    &:nth-of-type(2):hover {
+      color: #55acee;
+    }
+
+    &:nth-of-type(3):hover {
+      color: #e4405f;
+    }
+
+    &:nth-of-type(4):hover {
+      color: #cd201f;
+    }
+
+    &:nth-of-type(5):hover {
+      color: #0077b5;
+    }
+  }
+  i {
+    font-size: 20px;
+  }
+}
+
